@@ -51,6 +51,7 @@ const ListDisplay = () => {
   if (isLoading) {
     return <div>Cargando...</div>; // Muestra un mensaje de carga mientras isLoading es true
   }
+    console.log(combinedPokemonData);
 
   return (
     <div>
@@ -66,7 +67,9 @@ const ListDisplay = () => {
                 alt={pokemon.name}
               />
               <div className="card-body">
-                <h5 className="card-title">{pokemon.name}</h5>
+                <h5 className="card-title">Nombre: {pokemon.name}</h5>
+                <h6 className="card-pokemontype">Tipo: {pokemon.types[0].type?.name}</h6>
+               
               </div>
             </div>
           </div>

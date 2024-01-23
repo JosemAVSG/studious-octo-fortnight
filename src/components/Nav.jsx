@@ -35,9 +35,9 @@ const NavContainer = styled.nav`
     font-weight: 800;
   }
 
-  padding: 2rem;
+  padding: 1.1rem;
   display: flex;
-  background-color: rgb(15, 54, 92);
+  background-color: rgb(167, 0, 0);
   justify-content: space-between;
   align-items: center;
 
@@ -47,20 +47,20 @@ const NavContainer = styled.nav`
     margin-right: 10px;
     position: relative;
     color: #fff;
-    padding: 0 20px;
-    font-size: 30px;
+    padding: 3px;
+    font-size: 20px;
     font-weight: 400;
     font-style: oblique;
     font-family: "Bebas Neue", sans-serif;
   }
   .links {
-    margin-right: 100px;
+    margin-left: 100px;
   }
 
   .navi:after {
     content: "";
     position: absolute;
-    background-color: rgb(240, 218, 21);
+    background-color: rgb(255, 255, 255);
     height: 3px;
     width: 0;
     left: 0;

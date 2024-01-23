@@ -5,7 +5,9 @@ import PalindromeChecker from "../components/PalindromeChecker";
 const Home = () => {
   return (
     <div className="App">
-      <ListDisplay />
+     <div className="pokemonlist">
+       <ListDisplay />
+      </div>
 
       <h1>Button Styles with Sass</h1>
       <Button variant="primary">Primary Button</Button>
